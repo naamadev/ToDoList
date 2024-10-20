@@ -1,0 +1,22 @@
+.task-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.task-container.complete {
+    background-color: #d4edda;
+}
+
+.task-item {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.task-button {
+    margin-right: 10px;
+}
