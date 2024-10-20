@@ -4,7 +4,7 @@ import { TextField, Button } from '@mui/material';
 import tasksData from './tasksData';
 import './TasksList.css';
 
-const TasksList = () => {
+export default function TasksList(){
 
     const [tasks, setTasks] = useState(tasksData);
     const [newTask, setNewTask] = useState({ description: '', startDate: '', endDate: '', status: 'PENDING' });
@@ -74,5 +74,3 @@ const TasksList = () => {
         </div>
     );
 };
-
-export default TasksList;
